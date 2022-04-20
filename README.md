@@ -2,16 +2,6 @@
 
 Descripción del sitio...
 
-## Tecnologías 🛠️
-
-Tecnologías usadas en este proyecto:
-
-- [Node JS](https://nodejs.org/es/)
-
-- [React JS](https://es.reactjs.org/): Version 18.0.0
-
-<!-- - [SASS](https://sass-lang.com/): Version  -->
-
 ## Instalación y Ejecución 🚀
 
 Pasos para instalar y correr el proyecto:
