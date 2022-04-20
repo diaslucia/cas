@@ -6,9 +6,9 @@ Descripción del sitio...
 
 Tecnologías usadas en este proyecto:
 
-- [Node JS](https://nodejs.org/es/): Version 14.17.6
+- [Node JS](https://nodejs.org/es/)
 
-- [React](https://es.reactjs.org/): Version 17.0.2
+- [React JS](https://es.reactjs.org/): Version 18.0.0
 
 <!-- - [SASS](https://sass-lang.com/): Version  -->
 
@@ -40,5 +40,5 @@ $npm start
 
 1. Instalar SASS. [Más info aquí](https://create-react-app.dev/docs/adding-a-sass-stylesheet/)
 ```
-$npm install node-sass --save
+$npm install sass --save
 ```
