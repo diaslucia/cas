@@ -1,0 +1,41 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #afe9a4;
+  width: 100%;
+  height: auto;
+}
+
+nav .nav_divLogo {
+  margin: 0px 30px;
+}
+
+nav .nav_divLogo img {
+  width: 150px;
+  height: auto;
+}
+
+nav .nav_divLinks {
+  margin: 0px 30px;
+}
+
+nav .nav_divLinks .nav_link {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0px 30px;
+}
+/*# sourceMappingURL=styles.css.map */

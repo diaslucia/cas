@@ -1,15 +1,15 @@
 // Colors
 
-$primary:"#fff";
-$secondary: "#fff";
-$accent: "#fff";
-$text: "#fff";
-$textSecondary: "#fff";
-$title: "#fff";
-$titleSecondary: "#fff";
-$button: "#fff";
-$background: "#fff";
-$secondaryBackground: "#fff";
+$primary: rgb(0, 0, 0);
+$secondary: rgb(0, 0, 0);
+$accent: rgb(0, 0, 0);
+$text: rgb(0, 0, 0);
+$textSecondary: rgb(0, 0, 0);
+$title: rgb(0, 0, 0);
+$titleSecondary: rgb(0, 0, 0);
+$button: rgb(0, 0, 0);
+$background: rgb(175, 233, 164);
+$secondaryBackground: rgb(0, 0, 0);
 
 //Fonts
 
@@ -18,21 +18,14 @@ $secondaryBackground: "#fff";
     font-family: sans-serif;
 }
 
-@mixin textTitle ($size) {
+@mixin textFont ($size) {
     font-size: $size;
     font-family: sans-serif;
 }
 
 //Flex
 
-@mixin flex ($direction, $justify) {
-    display: flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-    align-items: center;
-}
-
-@mixin flex2 ($direction, $justify, $align) {
+@mixin flex ($direction, $justify, $align) {
     display: flex;
     flex-direction: $direction;
     justify-content: $justify;

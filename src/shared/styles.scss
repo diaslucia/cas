@@ -1,0 +1,25 @@
+@import "../sass/theme.scss";
+
+nav{
+    @include flex(row, space-between, center);
+    background-color: $background;
+    width: 100%;
+    height: auto;
+    .nav_divLogo{
+        margin: 0px 30px;
+        img {
+            width: 150px;
+            height: auto;
+        }
+    }
+    .nav_divLinks{
+        margin: 0px 30px;
+        .nav_link{
+            @include titleFont(18px);
+            color: $title;
+            text-transform: uppercase;
+            text-decoration: none;
+            margin: 0px 30px;
+        }
+    }
+}

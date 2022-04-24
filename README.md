@@ -32,3 +32,10 @@ $npm start
 ```
 $npm install sass --save
 ```
+
+### REACT ROUTER
+
+1. Instalar React Router. [Más info aquí](https://v5.reactrouter.com/web/guides/quick-start)
+```
+$npm install react-router-dom@6
+```
