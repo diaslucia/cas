@@ -11,9 +11,10 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #afe9a4;
+  background-color: #ababab;
   width: 100%;
   height: auto;
+  padding: 5px 0px;
 }
 
 nav .nav_divLogo {
@@ -21,7 +22,7 @@ nav .nav_divLogo {
 }
 
 nav .nav_divLogo img {
-  width: 150px;
+  width: 80px;
   height: auto;
 }
 
@@ -30,11 +31,10 @@ nav .nav_divLinks {
 }
 
 nav .nav_divLinks .nav_link {
-  font-size: 18px;
-  font-family: sans-serif;
+  font-size: 25px;
+  font-family: 'Marcellus', serif;
   color: black;
-  text-transform: uppercase;
   text-decoration: none;
-  margin: 0px 30px;
+  margin: 0px 40px;
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=navBar.css.map */

@@ -5,10 +5,8 @@ import { Routes, Route } from "react-router-dom";
 
 /* Components */
 import NavBar from './shared/navBar';
-import Home from './sections/home/home';
-import Seguros from './sections/seguros/seguros';
-import Aseguradoras from './sections/aseguradoras/aseguradoras';
-import Nosotros from './sections/nosotros/nosotros';
+import Inicio from './sections/inicio/inicio';
+import Productos from './sections/productos/productos';
 import Contacto from './sections/contacto/contacto';
 
 function App() {
@@ -16,10 +14,8 @@ function App() {
     <>
     <NavBar/>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/seguros" element={<Seguros />} />
-      <Route path="/aseguradoras" element={<Aseguradoras />} />
-      <Route path="/nosotros" element={<Nosotros />} />
+      <Route path="/" element={<Inicio />} />
+      <Route path="/productos" element={<Productos />} />
       <Route path="/contacto" element={<Contacto />} />
     </Routes>
     </>

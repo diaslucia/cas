@@ -1,0 +1,45 @@
+@import "../../../sass/theme.scss";
+
+.cardProductos{
+    @include flex(row, space-around, center);
+    .card_imgContainer{
+        @include flex(row, center, center);
+        height: 300px;
+        width: 70%;
+        img {
+            height: 300px;
+        }
+    }
+    .card_infoContainer{
+        @include flex(column, space-around, center);
+        background-color: green;
+        height: 300px;
+        width: 30%;
+        .card_titles{
+            @include flex(column, center, flex-end);
+            h1{
+                @include textFont(17px);
+                text-align: end;
+                margin: 0px;
+            }
+            h2{
+                @include textFont(25px);
+                text-align: end;
+                margin: 0px; 
+            }
+        }
+        .card_info{
+            @include flex(column, center, flex-end);
+            width: 90%;
+            p{
+                @include textFont(20px);
+                text-align: end;
+                margin: 0px; 
+            }
+            button{
+                @include textFont(20px);
+                align-self: center;
+            }
+        }
+    }
+}

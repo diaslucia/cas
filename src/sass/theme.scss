@@ -8,19 +8,19 @@ $textSecondary: rgb(0, 0, 0);
 $title: rgb(0, 0, 0);
 $titleSecondary: rgb(0, 0, 0);
 $button: rgb(0, 0, 0);
-$background: rgb(175, 233, 164);
+$background: rgb(171, 171, 171);
 $secondaryBackground: rgb(0, 0, 0);
 
 //Fonts
 
 @mixin titleFont ($size) {
     font-size: $size;
-    font-family: sans-serif;
+    font-family: 'Marcellus', serif;;
 }
 
 @mixin textFont ($size) {
     font-size: $size;
-    font-family: sans-serif;
+    font-family: "Light", sans-serif;
 }
 
 //Flex
