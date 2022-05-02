@@ -2,7 +2,7 @@ import React from "react";
 import "./productos.scss";
 
 /* Components */
-import CardProductos from "./components/cardProductos";
+import CardProductos from "./components/cardProductos/cardProductos";
 
 /* Img */
 import cardProducto from "../../assets/cardProducto.jpg";
