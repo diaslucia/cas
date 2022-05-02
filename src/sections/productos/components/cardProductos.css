@@ -11,6 +11,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1500px;
+  height: 300px;
+  margin: auto;
+  padding: 20px;
 }
 
 .cardProductos .card_imgContainer {
@@ -21,12 +25,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0px 50px;
   height: 300px;
   width: 70%;
 }
@@ -48,9 +53,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: green;
   height: 300px;
   width: 30%;
+  margin: 0px 50px;
 }
 
 .cardProductos .card_infoContainer .card_titles {
@@ -67,18 +72,21 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  width: 100%;
 }
 
 .cardProductos .card_infoContainer .card_titles h1 {
   font-size: 17px;
-  font-family: sans-serif;
+  font-family: "Light", sans-serif;
   text-align: end;
+  font-weight: bold;
   margin: 0px;
+  margin-bottom: 5px;
 }
 
 .cardProductos .card_infoContainer .card_titles h2 {
   font-size: 25px;
-  font-family: sans-serif;
+  font-family: "Light", sans-serif;
   text-align: end;
   margin: 0px;
 }
@@ -97,21 +105,28 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  width: 90%;
+  width: 100%;
 }
 
 .cardProductos .card_infoContainer .card_info p {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Light", sans-serif;
   text-align: end;
   margin: 0px;
 }
 
 .cardProductos .card_infoContainer .card_info button {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Light", sans-serif;
+  background-color: #494949;
+  color: white;
+  margin-top: 30px;
+  padding: 10px 20px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=cardProductos.css.map */

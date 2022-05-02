@@ -2,8 +2,13 @@
 
 .cardProductos{
     @include flex(row, space-around, center);
+    max-width: 1500px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
     .card_imgContainer{
-        @include flex(row, center, center);
+        @include flex(row, flex-start, center);
+        margin: 0px 50px;
         height: 300px;
         width: 70%;
         img {
@@ -12,15 +17,18 @@
     }
     .card_infoContainer{
         @include flex(column, space-around, center);
-        background-color: green;
         height: 300px;
         width: 30%;
+        margin: 0px 50px;
         .card_titles{
             @include flex(column, center, flex-end);
+            width: 100%;
             h1{
                 @include textFont(17px);
                 text-align: end;
+                font-weight: bold;
                 margin: 0px;
+                margin-bottom: 5px;
             }
             h2{
                 @include textFont(25px);
@@ -30,16 +38,23 @@
         }
         .card_info{
             @include flex(column, center, flex-end);
-            width: 90%;
+            width: 100%;
             p{
                 @include textFont(20px);
                 text-align: end;
-                margin: 0px; 
+                margin: 0px;
             }
             button{
                 @include textFont(20px);
+                background-color: $button;
+                color: $textSecondary;
+                margin-top: 30px;
+                padding: 10px 20px;
                 align-self: center;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
             }
         }
-    }
+    }        
 }
