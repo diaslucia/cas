@@ -4,7 +4,7 @@ import './App.scss';
 import { Routes, Route } from "react-router-dom";
 
 /* Components */
-import NavBar from './shared/navBar';
+import NavBar from './shared/navBar/navBar';
 import Inicio from './sections/inicio/inicio';
 import Productos from './sections/productos/productos';
 import Contacto from './sections/contacto/contacto';

@@ -1,4 +1,4 @@
-@import "../sass/theme.scss";
+@import "../../sass/theme.scss";
 
 nav{
     @include flex(row, space-around, center);
