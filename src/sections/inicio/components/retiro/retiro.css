@@ -37,6 +37,7 @@
       -ms-flex-align: center;
           align-items: center;
   max-width: 350px;
+  height: 350px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
           box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   margin: 30px;

@@ -12,6 +12,7 @@
         .retiro_card{
             @include flex(column, center, center);
             max-width: 350px;
+            height: 350px;
             box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
             margin: 30px;
             padding: 20px;

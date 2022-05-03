@@ -39,3 +39,10 @@ $npm install sass --save
 ```
 $npm install react-router-dom@6
 ```
+### SWIPER
+
+1. Instalar Swiper. [Más info aquí](https://swiperjs.com/react)
+```
+$npm i swiper
+```
+  

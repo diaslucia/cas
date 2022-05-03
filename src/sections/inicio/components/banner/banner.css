@@ -1,0 +1,17 @@
+.banner_div {
+  width: 100%;
+  height: 80vh;
+}
+
+.banner_div .banner_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: black !important;
+}
+/*# sourceMappingURL=banner.css.map */
