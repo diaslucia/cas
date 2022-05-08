@@ -1,30 +1,33 @@
 import React from "react";
-import "./productos.scss";
+import "./coberturas.scss";
 
 /* Components */
-import CardProductos from "./components/cardProductos/cardProductos";
+import CardCoberturas from "./components/cardCoberturas/cardCoberturas";
 
 /* Img */
-import cardProducto from "../../assets/cardProducto.jpg";
+import familia from "../../assets/Familia.png";
+import empresa from "../../assets/Empresa.png";
+import ahorro from "../../assets/Ahorro.png";
+import campo from "../../assets/Campo.png";
 
-const Productos = () => {
+const Coberturas = () => {
     return(
         <div className="productos">
-            <h1>Productos</h1>
-            <CardProductos
-            img={cardProducto}
+            <h1>Coberturas</h1>
+            <CardCoberturas
+            img={familia}
             type="Familia"
-            title="Protegé tus bienes y a los tuyos"
+            title="Protegé a tus seres queridos sin olvidarte de tus bienes"
             info1="• Combinado Familiar"
             info2="• Embarcaciones de placer"
             info3="• Automóvil"
             info4="• Responsabilidad Civil"
             />
-            <CardProductos
-            img={cardProducto}
+            <CardCoberturas
+            img={empresa}
             type="Empresa"
             title="El respaldo que tu negocio necesita"
-            info1="• Riesfo del trabajo/vida"
+            info1="• Riesgo del trabajo/vida"
             info2="• Flota de vehículos"
             info3="• Todo riesgo operativo"
             info4="• Y mucho más..."
@@ -34,16 +37,16 @@ const Productos = () => {
             styleInfo={{ alignItems: "flex-start" }}
             styleImg={{ justifyContent: "flex-end" }}
             />
-            <CardProductos
-            img={cardProducto}
+            <CardCoberturas
+            img={ahorro}
             type="Ahorro"
-            title="Asegurá un futuro disfrutable y tranquilo"
+            title="Asegurá un futuro para disfrutar y estar tranquilo"
             info1="• Seguro de retiro"
             info2="• Jubilaciones privadas"
             info3="• Vida con capitalización"
             />
-            <CardProductos
-            img={cardProducto}
+            <CardCoberturas
+            img={campo}
             type="Campo"
             title="Presencia y covertura para tu cultivo"
             info1="• Cultivo"
@@ -59,4 +62,4 @@ const Productos = () => {
     );
 }
 
-export default Productos;
+export default Coberturas;

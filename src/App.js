@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 /* Components */
 import NavBar from './shared/navBar/navBar';
 import Inicio from './sections/inicio/inicio';
-import Productos from './sections/productos/productos';
+import Coberturas from './sections/coberturas/coberturas';
 import Contacto from './sections/contacto/contacto';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <NavBar/>
     <Routes>
       <Route path="/" element={<Inicio />} />
-      <Route path="/productos" element={<Productos />} />
+      <Route path="/coberturas" element={<Coberturas />} />
       <Route path="/contacto" element={<Contacto />} />
     </Routes>
     </>

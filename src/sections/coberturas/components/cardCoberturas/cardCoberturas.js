@@ -1,7 +1,7 @@
 import React from "react";
-import "./cardProductos.scss";
+import "./cardCoberturas.scss";
 
-const CardProductos = ({ img, type, title, info1, info2, info3, info4, styleContainer, styleTitles, styleInfo, styleTitle, styleImg }) => {
+const CardCoberturas = ({ img, type, title, info1, info2, info3, info4, styleContainer, styleTitles, styleInfo, styleTitle, styleImg }) => {
     return(
         <div className="cardProductos" style={styleContainer}>
             <div className="card_imgContainer" style={styleImg}>
@@ -17,11 +17,11 @@ const CardProductos = ({ img, type, title, info1, info2, info3, info4, styleCont
                     <p>{info2}</p>
                     <p>{info3}</p>
                     <p>{info4}</p>
-                    <button>Conocé más</button>
+                    <button>Pedir más info</button>
                 </div>
             </div>
         </div>
     );
 }
 
-export default CardProductos;
+export default CardCoberturas;
