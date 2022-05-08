@@ -1,0 +1,5 @@
+@import "../../../../../../sass/theme.scss";
+
+.imgSwiper_container {
+    @include flex(row, space-around, center);
+}

@@ -19,7 +19,7 @@
         @include flex(column, space-around, center);
         height: 300px;
         width: 30%;
-        margin: 0px 50px;
+        margin: 0px 45px;
         .card_titles{
             @include flex(column, center, flex-end);
             width: 100%;
@@ -31,7 +31,7 @@
                 margin-bottom: 5px;
             }
             h2{
-                @include textFont(25px);
+                @include textFont(28px);
                 text-align: end;
                 margin: 0px; 
             }

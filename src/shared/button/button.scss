@@ -1,1 +1,9 @@
 @import "../../sass/theme.scss";
+
+button {
+    @include textFont(28px);
+    color: $textSecondary;
+    border: none;
+    border-radius: 25px;
+    background-color: $button;
+}
