@@ -3,8 +3,8 @@ import "./retiro.scss";
 
 /* Img */
 import plazoFijo from "../../../../assets/Plazo fijo.svg";
-import dolar from "../../../../assets/Dolar.svg";
-import ladrillo from "../../../../assets/Ladrillo.svg"
+import dolar from "../../../../assets/dolar.svg";
+import ladrillo from "../../../../assets/ladrillo.svg"
 
 const Retiro = () => {
     return(

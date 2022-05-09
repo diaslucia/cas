@@ -1,0 +1,34 @@
+@import "../../sass/theme.scss";
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: $secondary;
+    .footer_div{
+        text-align: left;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5rem;
+        h2{
+            @include textFont(28px);
+            font-weight: 800;
+            margin: 2rem 0rem 0.5rem 0rem;
+        }
+        a{
+            text-decoration: none;
+            color: #000000;
+            @include textFont(24px);
+            margin: 0.25rem 0rem;
+        }
+        p{
+            @include textFont(24px);
+            margin: 0.5rem 0rem;
+        }
+        img{
+            width: 200px;
+            text-align: center;
+        }
+    }
+}
