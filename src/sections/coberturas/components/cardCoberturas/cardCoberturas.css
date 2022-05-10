@@ -1,0 +1,153 @@
+.cardProductos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1500px;
+  height: 353px;
+  margin: auto;
+  padding: 20px;
+}
+
+.cardProductos .card_imgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 50px;
+  height: 353px;
+}
+
+.cardProductos .card_imgContainer img {
+  height: 353px;
+}
+
+.cardProductos .card_infoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 353px;
+  width: 412px;
+  margin: 0px 45px;
+}
+
+.cardProductos .card_infoContainer .card_titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+}
+
+.cardProductos .card_infoContainer .card_titles h1 {
+  font-size: 17px;
+  font-family: "Light", sans-serif;
+  text-align: end;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.cardProductos .card_infoContainer .card_titles h2 {
+  font-size: 28px;
+  font-family: "Light", sans-serif;
+  text-align: end;
+  margin: 0px;
+}
+
+.cardProductos .card_infoContainer .card_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+}
+
+.cardProductos .card_infoContainer .card_info p {
+  font-size: 20px;
+  font-family: "Light", sans-serif;
+  text-align: end;
+  margin: 0px;
+}
+
+.cardProductos .card_infoContainer .card_info .coberturas_button {
+  font-size: 20px;
+  font-family: "Light", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #902123;
+  color: #F8F6F8;
+  margin-top: 30px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 189px;
+  height: 49px;
+  -webkit-box-shadow: 2px 10px 15px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 10px 15px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  text-align: center;
+}
+
+.cardProductos .card_infoContainer .card_info .coberturas_button:hover {
+  background-color: #D93C40;
+  color: #F8F6F8;
+}
+/*# sourceMappingURL=cardCoberturas.css.map */

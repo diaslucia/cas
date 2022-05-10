@@ -3,8 +3,11 @@ import "./retiro.scss";
 
 /* Img */
 import plazoFijo from "../../../../assets/Plazo fijo.svg";
-import dolar from "../../../../assets/dolar.svg";
-import ladrillo from "../../../../assets/ladrillo.svg"
+import dolar from "../../../../assets/Dolar.svg";
+import ladrillo from "../../../../assets/Ladrillo.svg"
+
+/* Components */
+import Button from "../../../../shared/button/button";
 
 const Retiro = () => {
     return(
@@ -27,6 +30,10 @@ const Retiro = () => {
                     <p>Construir para obtener una rentabilidad requiere un ingreso muy importante y no siempre tenemos esa cantidad de dinero para realizar estos emprendimientos. El seguro de retiro se ajusta a tu capacidad individual de ahorro. </p>
                 </div>
             </div>
+            <div>
+                <Button title="Pedí Cotización" style={{ width: "427px", height: "103px", marginTop: "40px"}} path="contacto"/>
+            </div>
+
         </div>
     );
 }

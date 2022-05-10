@@ -3,22 +3,21 @@
 .cardProductos{
     @include flex(row, space-around, center);
     max-width: 1500px;
-    height: 300px;
+    height: 353px;
     margin: auto;
     padding: 20px;
     .card_imgContainer{
         @include flex(row, flex-start, center);
         margin: 0px 50px;
-        height: 300px;
-        width: 70%;
+        height: 353px;
         img {
-            height: 300px;
+            height: 353px;
         }
     }
     .card_infoContainer{
         @include flex(column, space-around, center);
-        height: 300px;
-        width: 30%;
+        height: 353px;
+        width: 412px;
         margin: 0px 45px;
         .card_titles{
             @include flex(column, center, flex-end);
@@ -44,16 +43,25 @@
                 text-align: end;
                 margin: 0px;
             }
-            button{
+            .coberturas_button{
                 @include textFont(20px);
+                @include flex(row, center, center);
                 background-color: $button;
                 color: $textSecondary;
                 margin-top: 30px;
-                padding: 10px 20px;
                 align-self: center;
                 border: none;
                 border-radius: 50px;
                 cursor: pointer;
+                width: 189px;
+                height: 49px;
+                box-shadow: 2px 10px 15px 0px rgba(0,0,0,0.25);
+                text-decoration: none;
+                text-align: center;
+                &:hover{
+                    background-color: $hover;
+                    color: $textSecondary;
+                }
             }
         }
     }        

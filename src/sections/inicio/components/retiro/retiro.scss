@@ -1,6 +1,7 @@
 @import "../../../../sass/theme.scss";
 
 .retiro{
+    @include flex(column, center, center);
     margin: 80px 0px;
     .retiro_title{
         @include titleFont(44px);
@@ -12,15 +13,16 @@
         @include flex(row, center, center);
         .retiro_card{
             @include flex(column, center, center);
+            background-color: $background;
             max-width: 350px;
-            height: 350px;
-            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-            margin: 30px;
+            height: 400px;
+            box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.25);
+            margin: 10px;
             padding: 20px;
-            border-radius: 20px;
+            border-radius: 16px;
             img {
-                width: 80px;
-                height: 80px;
+                width: 96px;
+                height: 70px;
             }
             h2{
                 @include textFont(28px);

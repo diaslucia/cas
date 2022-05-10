@@ -1,9 +1,26 @@
+.retiro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 80px 0px;
+}
+
 .retiro .retiro_title {
-  font-size: 35px;
+  font-size: 44px;
   font-family: 'Marcellus', serif;
   font-weight: 500;
   text-align: center;
-  margin: 80px 0px 40px 0px;
+  margin-bottom: 40px;
 }
 
 .retiro .retiro_div {
@@ -36,22 +53,23 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #F8F6F8;
   max-width: 350px;
-  height: 350px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  margin: 30px;
+  height: 400px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  margin: 10px;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 .retiro .retiro_div .retiro_card img {
-  width: 80px;
-  height: 80px;
+  width: 96px;
+  height: 70px;
 }
 
 .retiro .retiro_div .retiro_card h2 {
-  font-size: 25px;
+  font-size: 28px;
   font-family: "Light", sans-serif;
   margin: 10px 0px 15px 0px;
 }

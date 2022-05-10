@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,oBAAoB,CAAC;EC2BjB,OAAO,EAAE,IAAI;EACb,cAAc,ED3BA,GAAG;EC4BjB,eAAe,ED5BI,YAAY;EC6B/B,WAAW,ED7BsB,MAAM;CAC1C",
+    "sources": [
+        "imgSwiper.scss",
+        "../../../../../../sass/theme.scss"
+    ],
+    "names": [],
+    "file": "imgSwiper.css"
+}

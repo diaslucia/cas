@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAA;EACH,gBAAgB,ECQP,OAAO;EDPhB,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;CACzB",
+    "sources": [
+        "inicio.scss",
+        "../../sass/theme.scss"
+    ],
+    "names": [],
+    "file": "inicio.css"
+}

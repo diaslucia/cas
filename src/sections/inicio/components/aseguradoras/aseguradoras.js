@@ -13,7 +13,7 @@ const Aseguradoras = () => {
                 <SwiperAseguradoras/>
             </div>
             <div className="aseguradoras_button">
-                <Button title="Ver más" style={{ padding: "20px 80px"}} />
+                <Button title="Ver más" style={{ width: "456px", height: "80px", fontSize: "20px"}} path="contacto"/>
             </div>
         </div>
     );

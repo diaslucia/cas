@@ -1,6 +1,9 @@
 import React from "react";
 import "./cardCoberturas.scss";
 
+/* React Router */
+import { Link } from 'react-router-dom'
+
 const CardCoberturas = ({ img, type, title, info1, info2, info3, info4, styleContainer, styleTitles, styleInfo, styleTitle, styleImg }) => {
     return(
         <div className="cardProductos" style={styleContainer}>
@@ -17,7 +20,7 @@ const CardCoberturas = ({ img, type, title, info1, info2, info3, info4, styleCon
                     <p>{info2}</p>
                     <p>{info3}</p>
                     <p>{info4}</p>
-                    <button>Pedir más info</button>
+                    <Link to="/contacto" className="coberturas_button">Pedí más info</Link>
                 </div>
             </div>
         </div>

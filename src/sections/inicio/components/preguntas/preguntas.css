@@ -1,8 +1,12 @@
+.preguntas {
+  margin: 80px 0px;
+}
+
 .preguntas .preguntas_title {
-  font-size: 35px;
+  font-size: 44px;
   font-family: 'Marcellus', serif;
   font-weight: 500;
   text-align: center;
-  margin: 80px 0px 40px 0px;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=preguntas.css.map */

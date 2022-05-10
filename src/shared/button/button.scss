@@ -1,9 +1,16 @@
 @import "../../sass/theme.scss";
 
-button {
+.linkButton {
+    @include flex(row, center, center);
     @include textFont(28px);
     color: $textSecondary;
     border: none;
-    border-radius: 25px;
+    border-radius: 24px;
     background-color: $button;
+    box-shadow: 2px 10px 15px 0px rgba(0,0,0,0.25);
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        background-color: $hover;
+    }
 }

@@ -1,9 +1,12 @@
 import React from "react";
 import "./button.scss";
 
-const Button = ({ title, style}) => {
+/* React Router */
+import { Link } from 'react-router-dom'
+
+const Button = ({ title, style, path}) => {
     return(
-        <button style={style}>{title}</button>
+        <Link className="linkButton" to={`/${path}`} style={style}>{title}</Link>
     );
 }
 
