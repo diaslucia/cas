@@ -13,7 +13,7 @@ const AseguradorasInicio = () => {
                 <SwiperAseguradoras/>
             </div>
             <div className="aseguradorasInicio_button">
-                <Button title="Ver más" style={{ width: "456px", height: "80px", fontSize: "20px"}} path="contacto"/>
+                <Button title="Ver más" style={{ width: "300px", height: "80px", fontSize: "20px"}} path="aseguradoras"/>
             </div>
         </div>
     );

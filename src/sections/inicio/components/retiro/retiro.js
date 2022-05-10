@@ -31,7 +31,7 @@ const Retiro = () => {
                 </div>
             </div>
             <div>
-                <Button title="Pedí Cotización" style={{ width: "427px", height: "103px", marginTop: "40px"}} path="contacto"/>
+                <Button title="Pedí Cotización" style={{ width: "300px", height: "80px", marginTop: "40px"}} path="contacto"/>
             </div>
 
         </div>

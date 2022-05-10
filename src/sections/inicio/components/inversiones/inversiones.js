@@ -33,7 +33,7 @@ const Inversiones = () => {
                 </div>
 
                 <div>
-                    <Button title="Pedí cotización" style={{ width: "427px", height: "103px"}} path="contacto"/>
+                    <Button title="Pedí cotización" style={{ width: "300px", height: "80px"}} path="contacto"/>
                 </div>
                 
             </div>
