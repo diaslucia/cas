@@ -45,4 +45,10 @@ $npm install react-router-dom@6
 ```
 $npm i swiper
 ```
+### FRAME MOTION    
+
+1. Instalar Swiper. [Más info aquí](https://www.npmjs.com/package/framer-motion)
+```
+$npm i framer-motion
+```
   
