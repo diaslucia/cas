@@ -1,14 +1,14 @@
 .pregunta{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 2rem 0rem;
+    justify-content: flex-start;
+    padding: 1rem 0rem 2rem 0rem;
     @media(max-width: 576px){
         width: 100%;
     }
     .pregunta_principal{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         cursor: pointer;
         p{
@@ -43,14 +43,17 @@
         p{
             font-size: 1rem;
             line-height: 1.2rem;
+            margin: 0rem;
         }
     }
     .show{
         display: flex;
         margin-top: 0rem;
         opacity: 1;
-        padding: 1rem;
+        padding: 1.5rem 0rem 0rem 1rem;
         height: auto;
+        margin: auto;
+        justify-content: flex-start;
         transition: all 0.25s linear;
     }
 }
