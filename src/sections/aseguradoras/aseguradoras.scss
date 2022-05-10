@@ -1,5 +1,14 @@
 @import "../../sass/theme.scss";
 
 .aseguradoras{
+    @include flex(row, space-evenly, center);
     background-color: $background;
+    .aseguradoras_buttons{
+        @include flex(column, space-evenly, center);
+        .aseg_button{
+            width: 330px;
+            height: 47px;
+            border-radius: 12px;
+        }
+    }
 }

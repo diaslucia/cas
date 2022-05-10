@@ -27,7 +27,7 @@ const SwiperAseguradoras = () => {
             speed={900}
             loop
             >
-                <SwiperSlide><ImgSwiper img1={FedPat} img2={Holando} img3={Origenes}/></SwiperSlide>
+                <SwiperSlide><ImgSwiper img1={FedPat} img2={FedPat} img3={Origenes}/></SwiperSlide>
                 <SwiperSlide><ImgSwiper img1={SanCristobal} img2={SMG} img3={Zurich}/></SwiperSlide>
 
             </Swiper>

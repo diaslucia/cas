@@ -1,12 +1,32 @@
 .preguntas {
   margin: 80px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .preguntas .preguntas_title {
-  font-size: 44px;
+  font-size: 40px;
   font-family: 'Marcellus', serif;
   font-weight: 500;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.preguntas .preguntas_div {
+  width: 60%;
+  height: 30rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=preguntas.css.map */

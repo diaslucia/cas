@@ -16,7 +16,7 @@
 }
 
 .retiro .retiro_title {
-  font-size: 44px;
+  font-size: 40px;
   font-family: 'Marcellus', serif;
   font-weight: 500;
   text-align: center;
@@ -69,13 +69,13 @@
 }
 
 .retiro .retiro_div .retiro_card h2 {
-  font-size: 28px;
+  font-size: 25px;
   font-family: "Light", sans-serif;
   margin: 10px 0px 15px 0px;
 }
 
 .retiro .retiro_div .retiro_card p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Light", sans-serif;
   text-align: justify;
 }

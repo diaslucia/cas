@@ -47,8 +47,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -84,7 +85,7 @@
 }
 
 .cardProductos .card_infoContainer .card_titles h2 {
-  font-size: 28px;
+  font-size: 25px;
   font-family: "Light", sans-serif;
   text-align: end;
   margin: 0px;
@@ -108,14 +109,14 @@
 }
 
 .cardProductos .card_infoContainer .card_info p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Light", sans-serif;
   text-align: end;
   margin: 0px;
 }
 
 .cardProductos .card_infoContainer .card_info .coberturas_button {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Light", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
