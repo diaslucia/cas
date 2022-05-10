@@ -11,12 +11,12 @@
     background-color: $background;
     .inversiones_text_container{
         h2{
-            @include textFont(28px);
+            @include textFont(25px);
             margin: 10px 0px 15px 0px;
             text-align: center;
         }
         p {
-            @include textFont(20px);
+            @include textFont(18px);
             text-align: center;
         }
     }

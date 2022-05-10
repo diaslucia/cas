@@ -2,7 +2,7 @@
 
 .linkButton {
     @include flex(row, center, center);
-    @include textFont(28px);
+    @include textFont(25px);
     color: $textSecondary;
     border: none;
     border-radius: 24px;

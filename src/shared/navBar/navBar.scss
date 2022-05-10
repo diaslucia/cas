@@ -15,7 +15,7 @@ nav{
     .nav_divLinks{
         margin: 0px 50px;
         .nav_link{
-            @include titleFont(28px);
+            @include titleFont(25px);
             color: $title;
             text-decoration: none;
             margin: 0px 40px;

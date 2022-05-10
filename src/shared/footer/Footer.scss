@@ -12,18 +12,18 @@
         flex-direction: column;
         padding-left: 5rem;
         h2{
-            @include textFont(28px);
+            @include textFont(25px);
             font-weight: 800;
             margin: 2rem 0rem 0.5rem 0rem;
         }
         a{
             text-decoration: none;
             color: #000000;
-            @include textFont(24px);
+            @include textFont(18px);
             margin: 0.25rem 0rem;
         }
         p{
-            @include textFont(24px);
+            @include textFont(18px);
             margin: 0.5rem 0rem;
         }
         img{

@@ -4,7 +4,7 @@
     @include flex(column, center, center);
     margin: 80px 0px;
     .retiro_title{
-        @include titleFont(44px);
+        @include titleFont(40px);
         font-weight: 500;
         text-align: center;
         margin-bottom: 40px;
@@ -25,11 +25,11 @@
                 height: 70px;
             }
             h2{
-                @include textFont(28px);
+                @include textFont(25px);
                 margin: 10px 0px 15px 0px;
             }
             p {
-                @include textFont(20px);
+                @include textFont(18px);
                 text-align: justify;
             }
         }

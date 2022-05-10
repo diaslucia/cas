@@ -15,7 +15,7 @@
         }
     }
     .card_infoContainer{
-        @include flex(column, space-around, center);
+        @include flex(column, space-evenly, center);
         height: 353px;
         width: 412px;
         margin: 0px 45px;
@@ -30,7 +30,7 @@
                 margin-bottom: 5px;
             }
             h2{
-                @include textFont(28px);
+                @include textFont(25px);
                 text-align: end;
                 margin: 0px; 
             }
@@ -39,12 +39,12 @@
             @include flex(column, center, flex-end);
             width: 100%;
             p{
-                @include textFont(20px);
+                @include textFont(18px);
                 text-align: end;
                 margin: 0px;
             }
             .coberturas_button{
-                @include textFont(20px);
+                @include textFont(18px);
                 @include flex(row, center, center);
                 background-color: $button;
                 color: $textSecondary;
