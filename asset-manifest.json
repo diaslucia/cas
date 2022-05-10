@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cas/static/css/main.4ccacf47.css",
-    "main.js": "/cas/static/js/main.75054849.js",
+    "main.css": "/cas/static/css/main.cc996fc4.css",
+    "main.js": "/cas/static/js/main.3c6cd9de.js",
     "static/js/787.38bf595c.chunk.js": "/cas/static/js/787.38bf595c.chunk.js",
     "static/media/Banner (3).png": "/cas/static/media/Banner (3).a096fc037823863138f6.png",
     "static/media/Banner (1).png": "/cas/static/media/Banner (1).423da58410e495194ba3.png",
@@ -13,8 +13,8 @@
     "static/media/Ahorro.png": "/cas/static/media/Ahorro.63ee043c6fbe5ac5ed15.png",
     "static/media/ProductSans-Light.ttf": "/cas/static/media/ProductSans-Light.1dde435cdc2a9b6a7130.ttf",
     "static/media/FedPat.svg": "/cas/static/media/FedPat.c43f9e5eea6359a3c70897b104394ecf.svg",
-    "static/media/Holando.svg": "/cas/static/media/Holando.2676dff4a1d98019de79c9ce0e7271db.svg",
     "static/media/SanCristobal.svg": "/cas/static/media/SanCristobal.26ad5716a75ab2e316d88cfc3c15cd25.svg",
+    "static/media/Holando.svg": "/cas/static/media/Holando.94b6665b38afd0eee3a853f679f05980.svg",
     "static/media/Dolar.svg": "/cas/static/media/Dolar.8c747914d987df1dee2658bf9bdf09c2.svg",
     "static/media/Zurich.svg": "/cas/static/media/Zurich.098ae6a29411885202d3541b6c980664.svg",
     "static/media/Origenes.svg": "/cas/static/media/Origenes.85b5b92068d25ae68779b852a57d6d2b.svg",
@@ -28,12 +28,12 @@
     "static/media/Gana.svg": "/cas/static/media/Gana.64f71338390e8eb55f9e4246e31f6540.svg",
     "index.html": "/cas/index.html",
     "static/media/Impuestos.svg": "/cas/static/media/Impuestos.8125638f60454e60bb5192859f27f373.svg",
-    "main.4ccacf47.css.map": "/cas/static/css/main.4ccacf47.css.map",
-    "main.75054849.js.map": "/cas/static/js/main.75054849.js.map",
+    "main.cc996fc4.css.map": "/cas/static/css/main.cc996fc4.css.map",
+    "main.3c6cd9de.js.map": "/cas/static/js/main.3c6cd9de.js.map",
     "787.38bf595c.chunk.js.map": "/cas/static/js/787.38bf595c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ccacf47.css",
-    "static/js/main.75054849.js"
+    "static/css/main.cc996fc4.css",
+    "static/js/main.3c6cd9de.js"
   ]
 }
