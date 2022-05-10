@@ -27,6 +27,10 @@
                 color: white;
             }
         }
+        .active{
+            background-color: $button;
+            color: white;
+        }
     }
     .aseguradoras_cards{
         @include flex(column, center, center);

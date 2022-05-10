@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
 import './Pregunta.scss'
 
 const Pregunta = ({numero, pregunta, contenido}) => {
@@ -18,13 +17,9 @@ const Pregunta = ({numero, pregunta, contenido}) => {
         <p>{numero}.</p>
         <h4>{pregunta}</h4>
       </div>
-      <motion.div
-        animate={showText ? "open" : "closed"}
-        variants={variants}>
-        <div className={`pregunta_secondary ${showText===true && 'show'}`}>
+        <div className="pregunta_secondary">
           <p>{contenido}</p>
         </div>
-      </motion.div>
      </div>
   )
 }

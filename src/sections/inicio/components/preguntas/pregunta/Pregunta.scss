@@ -33,27 +33,16 @@
         }
     }
     .pregunta_secondary{
-        display: none;
+        display: flex;
+        justify-content: flex-start;
+        padding: 1rem 2rem 1.5rem 0rem;
         height: 0rem;
-        opacity: 0;
-        width: auto;
-        padding: 0rem;
+        margin: 0rem;
         color: #000000;
-        transition: all 0.25s linear;
         p{
             font-size: 1rem;
             line-height: 1.2rem;
             margin: 0rem;
         }
-    }
-    .show{
-        display: flex;
-        margin-top: 0rem;
-        opacity: 1;
-        padding: 1.5rem 0rem 0rem 1rem;
-        height: auto;
-        margin: auto;
-        justify-content: flex-start;
-        transition: all 0.25s linear;
     }
 }
