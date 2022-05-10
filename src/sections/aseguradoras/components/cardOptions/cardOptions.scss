@@ -11,12 +11,17 @@
         @include titleFont(25px);
         margin-bottom: 40px;
     }
-    img{
-        width: 500px;
+    .aseguradoras_img{
+        height: 150px;
     }
     p{
         @include textFont(18px);
         margin: 40px;
         text-align: center;
     }
+}
+
+.activeButton {
+    background-color: $button;
+    color: white;
 }

@@ -27,8 +27,8 @@
   margin-bottom: 40px;
 }
 
-.cardOptions img {
-  width: 500px;
+.cardOptions .aseguradoras_img {
+  height: 150px;
 }
 
 .cardOptions p {
@@ -36,5 +36,10 @@
   font-family: "Light", sans-serif;
   margin: 40px;
   text-align: center;
+}
+
+.activeButton {
+  background-color: #902123;
+  color: white;
 }
 /*# sourceMappingURL=cardOptions.css.map */

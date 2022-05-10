@@ -3,36 +3,40 @@ import "./aseguradoras.scss";
 
 /* Components */
 import CardOptions from "./components/cardOptions/cardOptions";
-
-/* Img */
-import FedPat from "../../assets/Aseguradoras historia/FedPat.svg"
+import { CLIENTS } from "./components/constants/clientes";
 
 const Aseguradoras = () => {
-    const [options, setOptions] = useState("")
+    const clientInit = CLIENTS.filter((item) => item.id === 1);
+    const [clientes, setClientes] = useState(clientInit);
 
-    const handleOnClick = (value) => {
-        setOptions(value)
+    const handleOnClick = (id) => {
+        let newClient = CLIENTS.filter((item) => item.id === id);
+        setClientes(newClient);
     }
 
     return(
         <div className="aseguradoras">
             <div className="aseguradoras_buttons">
-                <button onClick={() => handleOnClick("FedPat")} className="aseg_button">Federación Patronal</button>
-                <button className="aseg_button">La Holando</button>
-                <button className="aseg_button">Orígenes</button>
-                <button className="aseg_button">San Cristóbal</button>
-                <button className="aseg_button">SMG Life</button>
-                <button className="aseg_button">Zurich</button>
+                <button onClick={() => handleOnClick(1)} className="aseg_button">Federación Patronal</button>
+                <button onClick={() => handleOnClick(2)} className="aseg_button">La Holando</button>
+                <button onClick={() => handleOnClick(3)} className="aseg_button">Orígenes</button>
+                <button onClick={() => handleOnClick(4)} className="aseg_button">San Cristóbal</button>
+                <button onClick={() => handleOnClick(5)} className="aseg_button">SMG Life</button>
+                <button onClick={() => handleOnClick(6)} className="aseg_button">Zurich</button>
             </div>
 
-            <div className="aseguradoras_cards">
-                <CardOptions
-                title="Federación Patronal"
-                img={FedPat}
-                description="En el año 1923 abría sus puertas FEDERACIÓN PATRONAL C.S.L. iniciando sus actividades con un objetivo concreto: brindar cobertura al personal obrero de las empresas que administraban sus fundadores.
-                Así, un grupo de industriales y empresarios de la ciudad de La Plata, en una conjunción de voluntades, conformaron una organización económico-social en procura de un equilibrio armónico en el costo del seguro.
-                Con el transcurso de los años, la institución se consolidó en la prestación de esta cobertura, y decide incursionar en los ramos Automotores, Incendio y Accidentes Personales, hasta brindar, con el tiempo, todas las posibilidades de cobertura, como la de Riesgos del Trabajo (Ley 24557) e incluso Vida en todas sus alternativas. A partir del año 2000, el vertiginoso proceso de apertura e invasión de los mercados, obligó al cambio de naturaleza jurídica."/>
-                </div>
+            {<div className="aseguradoras_cards">
+                {clientes.map((item) => {
+                    return(
+                        <CardOptions
+                        key={item.id.toString()}
+                        title={item.title}
+                        img={item.img}
+                        description={item.description}
+                        />
+                    )
+                })}
+            </div>}
         </div>
     );
 }
