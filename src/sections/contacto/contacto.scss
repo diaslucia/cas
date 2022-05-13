@@ -1,0 +1,147 @@
+@import "../../sass/theme.scss";
+
+.contacto{
+    @include titleFont(15px);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 80px;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            .principal{
+                color: $text;
+                font-weight: 700;
+                margin-bottom: 0rem;
+            }
+            .secundario{
+                color: $primary;
+                font-weight: 700;
+                margin-top: 0rem;
+            }
+            form{
+                width: 90%;
+                .principal{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    margin: auto;
+                    label{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        font-weight: 300;
+                        margin: 0.3rem 0rem 0.3rem 0rem;
+                        font-size: 0.8rem;
+                        div{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            width: 90%;
+                            p{
+                                margin: 0rem 0rem 0rem 0.5rem;
+                                color: $button;
+                            }
+                        }
+                    }
+                    input{
+                        border-radius: 0.5rem;
+                        border: none;
+                        background-color: $secondaryBackground;
+                        padding: 0.8rem;
+                        margin: 0.3rem 0rem 0.3rem 0rem;
+                        width: 100%;
+                    }
+                    .inputNombre{
+                        width: 85%;
+                    }
+                }
+                label{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    font-weight: 300;
+                    font-size: 0.8rem;
+                    margin: 0.8rem 0rem;
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        width: 90%;
+                        p{
+                            margin: 0rem 0rem 0rem 0.5rem;
+                            color: $button;
+                        }
+                    }
+                    .button{
+                        width: 105%;
+                        padding: 1rem 0rem;
+                        border-radius: 1rem;
+                        border: none;
+                        background-color: $button;
+                        color: #ffffff;
+                        font-weight: 600;
+                        animation: all 1s linear;
+                        cursor: pointer;
+                        &:active{
+                            transform: scale(.95);
+                            transition: all 0.15s ease-in-out;
+                        }
+                    }
+                }
+                input{
+                    border-radius: 0.5rem;
+                    border: none;
+                    background-color: $secondaryBackground;
+                    padding: 0.8rem;
+                    width: 100%;
+                    margin: 0.3rem 0rem 0.8rem 0rem;
+                }
+                select{
+                    @extend label;
+                    border-radius: 0.5rem;
+                    border: none;
+                    background-color: $secondaryBackground;
+                    padding: 0.8rem;
+                    margin: 0.3rem 0rem 0.8rem 0rem;
+                    width: 103%;
+                    option{
+                        padding: 1rem 0rem;
+                    }
+                }
+                textarea{
+                    @extend label;
+                    border-radius: 0.5rem;
+                    border: 1px solid black;
+                    background-color: #ffffff;
+                    padding: 0.8rem;
+                    margin: 0.8rem 0rem;
+                    margin-top: 0.3rem;
+                    width: 100%;
+                    height: 8rem;
+                    max-height: 8rem;
+                    max-width: 100%;
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        width: 90%;
+                        p{
+                            margin: 0rem 0rem 0rem 0.5rem;
+                            color: $button;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
