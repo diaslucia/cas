@@ -13,7 +13,7 @@ const Contacto = () => {
 
   const onSubmit = async (data) => {
       reset();
-      axios.post('https://formsubmit.co/juanignaciouranimm@gmail.com', {
+      axios.post('https://formsubmit.co/emaildelcliente', {
           data
         })
         .then(function (response) {
@@ -114,7 +114,7 @@ const Contacto = () => {
               />
             </label>
             <label>
-              <button className="button" type="submit">REALIZAR PEDIDO</button>
+              <button className="button" type="submit">Enviar</button>
             </label>
           </form>
         </div>

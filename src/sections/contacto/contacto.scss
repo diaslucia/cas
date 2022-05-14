@@ -5,6 +5,11 @@
     font-weight: 500;
     text-align: center;
     margin-bottom: 80px;
+    h1{
+        font-size: 35px;
+        font-family: 'Marcellus', serif;;
+        font-weight: 500;
+    }
     div{
         display: flex;
         justify-content: center;
@@ -14,19 +19,23 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 50%;
+            width: 70%;
             .principal{
                 color: $text;
                 font-weight: 700;
                 margin-bottom: 0rem;
+                font-size: 1.4rem;
+                font-family: "Light", sans-serif;
             }
             .secundario{
                 color: $primary;
                 font-weight: 700;
                 margin-top: 0rem;
+                font-size: 1.4rem;
+                font-family: "Light", sans-serif;
             }
             form{
-                width: 90%;
+                width: 40rem;
                 .principal{
                     width: 100%;
                     display: flex;
@@ -114,15 +123,12 @@
                     padding: 0.8rem;
                     margin: 0.3rem 0rem 0.8rem 0rem;
                     width: 103%;
-                    option{
-                        padding: 1rem 0rem;
-                    }
                 }
                 textarea{
                     @extend label;
                     border-radius: 0.5rem;
-                    border: 1px solid black;
-                    background-color: #ffffff;
+                    border: none;
+                    background-color: $secondaryBackground;
                     padding: 0.8rem;
                     margin: 0.8rem 0rem;
                     margin-top: 0.3rem;
@@ -142,6 +148,9 @@
                     }
                 }
             }
+        }
+        div:last-child{
+            width: 30%;
         }
     }
 }
