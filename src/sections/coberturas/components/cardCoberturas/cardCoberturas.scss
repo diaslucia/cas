@@ -103,10 +103,10 @@
         .card_infoContainer{
             @include flex(column, space-evenly, center);
             height: auto;
-            width: auto;
+            width: 100%;
             margin: 0px;
             .card_titles{
-                @include flex(column, center, flex-end);
+                @include flex(column, center, center);
                 width: 100%;
                 h1{
                     display: none;
@@ -118,8 +118,7 @@
                 }
             }
             .card_info{
-                @include flex(row, center, flex-start);
-                width: 100%;
+                @include flex(row, space-around, center);
                 .card_p{
                     p{
                         @include textFont(17px);
