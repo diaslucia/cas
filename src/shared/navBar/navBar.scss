@@ -58,7 +58,7 @@ nav{
             @include flex(column, flex-start, flex-end);
             z-index: 15;
             margin: auto;
-            background: linear-gradient(180deg, rgba(159,1,1,1) 0%, rgba(159,1,1,1) 33%, rgba(248,246,249,1) 100%);
+            background: linear-gradient(180deg, rgba(159,1,1,1) 0%, rgba(159,1,1,1) 33%, rgba(248, 246, 249, 0) 100%);
             width: 50vw;
             height: 100vh;
             position: fixed;
