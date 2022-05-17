@@ -57,3 +57,9 @@ $npm i framer-motion
 ```
 $npm install react-hook-form
 ```
+### Font Awesome Icons
+
+1. Font Awesome Icons. [More information here](https://fontawesome.com/icons)
+```
+$npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons
+```

@@ -32,3 +32,19 @@
         }
     }
 }
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        .footer_div{
+            img{
+                width: 100px;
+                text-align: center;
+            }
+        }
+    }
+
+}

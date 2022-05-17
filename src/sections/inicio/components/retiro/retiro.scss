@@ -36,3 +36,45 @@
     }
     
 }
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .retiro{
+        @include flex(column, center, center);
+        margin: 20px 20px;
+        .retiro_title{
+            @include titleFont(25px);
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .retiro_div{
+            @include flex(column, center, center);
+            .retiro_card{
+                @include flex(column, center, center);
+                background-color: $background;
+                max-width: auto;
+                height: auto;
+                box-shadow: none;
+                margin: 15px;
+                padding: 0px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    padding: 8px;
+                }
+                h2{
+                    @include textFont(20px);
+                    margin: 10px 0px 5px 0px;
+                }
+                p {
+                    @include textFont(17px);
+                    margin: 0px;
+                    text-align: center;
+                }
+            }
+        }
+        
+    }
+
+}

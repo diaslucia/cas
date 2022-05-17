@@ -23,3 +23,33 @@
         }
     }
 }
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .inversiones{
+        @include flex(column, center, center);
+        margin: 20px 20px;
+        .inversiones_title{
+            @include titleFont(25px);
+            margin-bottom: 20px;
+        }
+        .inversiones_div{
+            @include flex(column, center, center);
+    
+            .inversiones_cards{
+                @include flex(column, center, center);
+                flex-wrap: wrap;
+                margin-right: 20px;
+                .inversiones_cards_dos{
+                    @include flex(column, center, center);
+                }
+                margin-bottom: 20px;
+            }
+        }
+        .inversiones_button{
+            margin: 10px 0px; 
+        }
+    }
+
+}

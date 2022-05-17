@@ -32,8 +32,8 @@ const Inversiones = () => {
                     </div>
                 </div>
 
-                <div>
-                    <Button title="Pedí cotización" style={{ width: "300px", height: "80px"}} path="contacto"/>
+                <div className="inversiones_button">
+                    <Button title="Pedí cotización" path="contacto"/>
                 </div>
                 
             </div>

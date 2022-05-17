@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 
 /* Img */
 import FedPat from "../../../../../../assets/Aseguradoras inicio/FedPat.svg"
-import Holando from "../../../../../../assets/Aseguradoras inicio/Holando.svg"
+import Holando from "../../../../../../assets/Aseguradoras inicio/Holando.png"
 import Origenes from "../../../../../../assets/Aseguradoras inicio/Origenes.svg"
 import SanCristobal from "../../../../../../assets/Aseguradoras inicio/SanCristobal.svg"
 import SMG from "../../../../../../assets/Aseguradoras inicio/SMG.svg"
@@ -26,7 +26,7 @@ const SwiperAseguradoras = () => {
             speed={900}
             loop
             >
-                <SwiperSlide><ImgSwiper img1={FedPat} img2={FedPat} img3={Origenes}/></SwiperSlide>
+                <SwiperSlide><ImgSwiper img1={FedPat} img2={Holando} img3={Origenes}/></SwiperSlide>
                 <SwiperSlide><ImgSwiper img1={SanCristobal} img2={SMG}/></SwiperSlide>
 
             </Swiper>

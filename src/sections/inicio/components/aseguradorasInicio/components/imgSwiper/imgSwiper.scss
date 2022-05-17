@@ -3,3 +3,15 @@
 .imgSwiper_container {
     @include flex(row, space-around, center);
 }
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+.imgSwiper_container{
+    @include flex(row, space-around, center);
+    margin: 0px 20px;
+    img{
+        width: 30%;
+    }
+}
+}

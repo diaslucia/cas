@@ -10,6 +10,9 @@
         @include flex(row, flex-start, center);
         margin: 0px 50px;
         height: 353px;
+        .cart_imgType{
+            display: none;
+        }
         img {
             height: 353px;
         }
@@ -38,10 +41,12 @@
         .card_info{
             @include flex(column, center, flex-end);
             width: 100%;
-            p{
-                @include textFont(18px);
-                text-align: end;
-                margin: 0px;
+            .card_p{
+                p{
+                    @include textFont(18px);
+                    text-align: end;
+                    margin: 0px;
+                }
             }
             .coberturas_button{
                 @include textFont(18px);
@@ -65,4 +70,74 @@
             }
         }
     }        
+}
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .cardProductos{
+        @include flex(column, space-around, center);
+        flex-direction: column !important;
+        max-width: auto;
+        height: auto;
+        padding: 0px;
+        margin-bottom: 40px;
+        .card_imgContainer{
+            @include flex(column, flex-start, center);
+            margin: 0px;
+            height: auto;
+            .cart_imgType{
+                display: block;
+                align-self: flex-start;
+                @include textFont(17px);
+                text-align: start;
+                font-weight: bold;
+                margin: 0px;
+                margin-bottom: 5px;
+            }
+            img {
+                width: 90vw;
+                height: auto;
+            }
+        }
+        .card_infoContainer{
+            @include flex(column, space-evenly, center);
+            height: auto;
+            width: auto;
+            margin: 0px;
+            .card_titles{
+                @include flex(column, center, flex-end);
+                width: 100%;
+                h1{
+                    display: none;
+                }
+                h2{
+                    @include textFont(20px);
+                    text-align: center !important;
+                    margin: 10px 0px 18px 0px; 
+                }
+            }
+            .card_info{
+                @include flex(row, center, flex-start);
+                width: 100%;
+                .card_p{
+                    p{
+                        @include textFont(17px);
+                        text-align: start;
+                        margin: 0px;
+                    }
+                }
+                .coberturas_button{
+                    @include textFont(17px);
+                    @include flex(row, center, center);
+                    margin-top: 0px;
+                    border-radius: 50px;
+                    width: 130px;
+                    height: 30px;
+                    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.25);
+                }
+            }
+        }        
+    }
+
 }

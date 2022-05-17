@@ -27,5 +27,58 @@ nav{
                 color: $textSecondary;
             }
         }
+        
     }
+    .nav_iconHamb{
+        display: none;
+        .iconHamb{
+            display: none;
+        }
+    }
+    
+}
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    nav{
+        @include flex(row, space-between, center);
+        height: 50px;
+        padding: 5px 0px;
+        .nav_divLogo{
+            img {
+                width: 40px;
+                margin-left: 30px;
+            }
+        }
+        .nav_divLinks{
+            display: none;
+        }
+        .nav_divLinks_active{
+            @include flex(column, flex-start, flex-end);
+            z-index: 15;
+            margin: auto;
+            background: linear-gradient(180deg, rgba(159,1,1,1) 0%, rgba(159,1,1,1) 33%, rgba(248,246,249,1) 100%);
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            .nav_link{
+                @include titleFont(25px);
+                color: $textSecondary;
+                text-decoration: none;
+                margin: 0px 40px;
+                padding: 30px 10px;
+            }
+        }
+        .nav_iconHamb{
+            display: block;
+            .iconHamb{
+                display: block;
+                font-size: 25px;
+                margin-right: 30px;
+            }
+        }
+    }
+
 }

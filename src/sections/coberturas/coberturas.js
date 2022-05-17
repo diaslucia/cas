@@ -36,6 +36,7 @@ const Coberturas = () => {
             styleTitle={{ textAlign: "start" }}
             styleInfo={{ alignItems: "flex-start" }}
             styleImg={{ justifyContent: "flex-end" }}
+            styleP={{ textAlign: "start" }}
             />
             <CardCoberturas
             img={ahorro}

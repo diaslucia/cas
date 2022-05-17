@@ -10,3 +10,17 @@
         margin-bottom: 80px;
     }
 }
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .productos{
+        padding: 40px 20px;
+        background-color: $background;
+        h1{
+            @include titleFont(25px);
+            margin-bottom: 40px;
+        }
+    }
+
+}

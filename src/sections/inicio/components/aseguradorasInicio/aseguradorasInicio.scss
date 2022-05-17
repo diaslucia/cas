@@ -21,3 +21,35 @@
     }
     
 }
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .aseguradorasInicio{
+        margin-top: 80px;
+        padding-bottom: 20px;
+        .aseguradorasInicio_title{
+            @include titleFont(25px);
+            margin-bottom: 20px;
+        }
+        .aseguradorasInicio_swiper{
+            padding: 20px 0px;
+            .swiper-button-next,
+            .swiper-button-prev {
+              color: black !important;
+              font-size: 10px !important;
+            }
+            .swiper-button-next:after ,
+            .swiper-button-prev:after {
+              color: black !important;
+              font-size: 20px !important;
+              font-weight: bold !important;
+            }
+        }
+        .aseguradorasInicio_button{
+            @include flex(row, center, center)
+        }
+        
+    }
+
+}

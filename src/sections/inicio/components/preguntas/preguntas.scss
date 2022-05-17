@@ -19,3 +19,16 @@
         overflow-x: hidden;
     }
 }
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .preguntas{
+        margin: 20px 20px;
+        .preguntas_title{
+            @include titleFont(25px);
+            margin-bottom: 20px;
+        }
+    }
+
+}
