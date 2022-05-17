@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/cas/static/css/main.2adf6f87.css",
-    "main.js": "/cas/static/js/main.712441b7.js",
+    "main.css": "/cas/static/css/main.5314a4f5.css",
+    "main.js": "/cas/static/js/main.52120eb1.js",
     "static/js/787.38bf595c.chunk.js": "/cas/static/js/787.38bf595c.chunk.js",
     "static/media/Banner (3).png": "/cas/static/media/Banner (3).a096fc037823863138f6.png",
     "static/media/Banner (1).png": "/cas/static/media/Banner (1).423da58410e495194ba3.png",
     "static/media/Banner (2).png": "/cas/static/media/Banner (2).1c0f39e731181299965d.png",
     "static/media/Campo.png": "/cas/static/media/Campo.d3bebe83a0a307e6f7f8.png",
-    "static/media/wallpaper.png": "/cas/static/media/wallpaper.8671ba92b2ba62eed180.png",
     "static/media/Empresa.png": "/cas/static/media/Empresa.78ec4da2ceade6aac9e5.png",
     "static/media/Familia.png": "/cas/static/media/Familia.371c6da7d1c620a0893b.png",
     "static/media/Ahorro.png": "/cas/static/media/Ahorro.63ee043c6fbe5ac5ed15.png",
     "static/media/ProductSans-Light.ttf": "/cas/static/media/ProductSans-Light.1dde435cdc2a9b6a7130.ttf",
     "static/media/FedPat.svg": "/cas/static/media/FedPat.c43f9e5eea6359a3c70897b104394ecf.svg",
     "static/media/SanCristobal.svg": "/cas/static/media/SanCristobal.26ad5716a75ab2e316d88cfc3c15cd25.svg",
-    "static/media/Holando.svg": "/cas/static/media/Holando.94b6665b38afd0eee3a853f679f05980.svg",
     "static/media/Dolar.svg": "/cas/static/media/Dolar.8c747914d987df1dee2658bf9bdf09c2.svg",
-    "static/media/Zurich.svg": "/cas/static/media/Zurich.098ae6a29411885202d3541b6c980664.svg",
     "static/media/Origenes.svg": "/cas/static/media/Origenes.85b5b92068d25ae68779b852a57d6d2b.svg",
     "static/media/SMG.svg": "/cas/static/media/SMG.095916dbd73d01c978bac6b8468b185d.svg",
     "static/media/Plazo fijo.svg": "/cas/static/media/Plazo fijo.8677f6d6f99c1ab60c53f2fdeb6d68d8.svg",
@@ -27,13 +24,14 @@
     "static/media/Logo footer.svg": "/cas/static/media/Logo footer.49cccc594c741691ad528f5af39f988c.svg",
     "static/media/Gana.svg": "/cas/static/media/Gana.64f71338390e8eb55f9e4246e31f6540.svg",
     "index.html": "/cas/index.html",
+    "static/media/wallpaper.svg": "/cas/static/media/wallpaper.a0a02d7654703f49d4f93cad6c36c8f2.svg",
     "static/media/Impuestos.svg": "/cas/static/media/Impuestos.8125638f60454e60bb5192859f27f373.svg",
-    "main.2adf6f87.css.map": "/cas/static/css/main.2adf6f87.css.map",
-    "main.712441b7.js.map": "/cas/static/js/main.712441b7.js.map",
+    "main.5314a4f5.css.map": "/cas/static/css/main.5314a4f5.css.map",
+    "main.52120eb1.js.map": "/cas/static/js/main.52120eb1.js.map",
     "787.38bf595c.chunk.js.map": "/cas/static/js/787.38bf595c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2adf6f87.css",
-    "static/js/main.712441b7.js"
+    "static/css/main.5314a4f5.css",
+    "static/js/main.52120eb1.js"
   ]
 }
