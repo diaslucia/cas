@@ -51,4 +51,9 @@ $npm i swiper
 ```
 $npm i framer-motion
 ```
-  
+### HOOK FORM  
+
+1. Instalar React Hook Form. [Más info aquí](https://react-hook-form.com/get-started/)
+```
+$npm install react-hook-form
+```

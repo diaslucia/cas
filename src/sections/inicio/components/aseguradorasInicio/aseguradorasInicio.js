@@ -3,7 +3,6 @@ import "./aseguradorasInicio.scss";
 
 /* Components */
 import SwiperAseguradoras from "./components/swiper/swiper";
-import Button from "../../../../shared/button/button";
 
 const AseguradorasInicio = () => {
     return(
@@ -11,9 +10,6 @@ const AseguradorasInicio = () => {
             <h1 className="aseguradorasInicio_title">Trabajamos en conjunto con</h1>
             <div className="aseguradorasInicio_swiper">
                 <SwiperAseguradoras/>
-            </div>
-            <div className="aseguradorasInicio_button">
-                <Button title="Ver más" style={{ width: "300px", height: "80px", fontSize: "20px"}} path="aseguradoras"/>
             </div>
         </div>
     );

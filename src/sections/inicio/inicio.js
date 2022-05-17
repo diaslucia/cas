@@ -9,7 +9,7 @@ import Preguntas from "./components/preguntas/preguntas";
 import AseguradorasInicio from "./components/aseguradorasInicio/aseguradorasInicio";
 
 /* Img */
-import background from "../../assets/wallpaper.png";
+import background from "../../assets/wallpaper.svg";
 
 const Inicio = () => {
     return(

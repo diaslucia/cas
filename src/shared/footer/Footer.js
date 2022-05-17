@@ -11,7 +11,6 @@ const Footer = () => {
             <Link to="/">Inicio</Link>
             <Link to="/coberturas">Coberturas</Link>
             <Link to="/contacto">Contacto</Link>
-            <Link to="/aseguradoras">Aseguradoras</Link>
         </div>
         <div className='footer_div'>
             <h2>Escribinos en:</h2>

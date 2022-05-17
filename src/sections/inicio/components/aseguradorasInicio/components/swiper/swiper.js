@@ -12,7 +12,6 @@ import Holando from "../../../../../../assets/Aseguradoras inicio/Holando.svg"
 import Origenes from "../../../../../../assets/Aseguradoras inicio/Origenes.svg"
 import SanCristobal from "../../../../../../assets/Aseguradoras inicio/SanCristobal.svg"
 import SMG from "../../../../../../assets/Aseguradoras inicio/SMG.svg"
-import Zurich from "../../../../../../assets/Aseguradoras inicio/Zurich.svg"
 
 /* Components */
 import ImgSwiper from "../imgSwiper/imgSwiper";
@@ -28,7 +27,7 @@ const SwiperAseguradoras = () => {
             loop
             >
                 <SwiperSlide><ImgSwiper img1={FedPat} img2={FedPat} img3={Origenes}/></SwiperSlide>
-                <SwiperSlide><ImgSwiper img1={SanCristobal} img2={SMG} img3={Zurich}/></SwiperSlide>
+                <SwiperSlide><ImgSwiper img1={SanCristobal} img2={SMG}/></SwiperSlide>
 
             </Swiper>
     );

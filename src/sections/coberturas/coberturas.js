@@ -45,19 +45,6 @@ const Coberturas = () => {
             info2="• Jubilaciones privadas"
             info3="• Vida con capitalización"
             />
-            <CardCoberturas
-            img={campo}
-            type="Campo"
-            title="Presencia y covertura para tu cultivo"
-            info1="• Cultivo"
-            info2="• Maquinaria"
-            info3="• Silo bolsa"
-            styleContainer={{ flexDirection: "row-reverse" }}
-            styleTitles={{ alignItems: "flex-start" }}
-            styleTitle={{ textAlign: "start" }}
-            styleInfo={{ alignItems: "flex-start" }}
-            styleImg={{ justifyContent: "flex-end" }}
-            />
         </div>
     );
 }
