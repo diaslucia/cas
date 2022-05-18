@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleExclamation } from "@fortawesome/free-solid-svg-icons";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import "./contacto.scss";
@@ -33,9 +35,9 @@ const Contacto = () => {
             <div className="principal">
               <label>
                 <div>
-                  Nombre*
+                  <span style={{marginRight: "0.2rem"}}>Nombre*</span>
                   {errors.Nombre?.type === "required" && (
-                    <p className="required">Requerido</p>
+                    <FontAwesomeIcon className="iconHamb" icon={faCircleExclamation} style={{color: "D93C40"}}/>
                   )}
                 </div>
                 <input
@@ -49,9 +51,9 @@ const Contacto = () => {
               </label>
               <label>
               <div>
-                Apellido*
+                <span style={{marginRight: "0.2rem"}}>Apellido*</span>
                 {errors.Apellido?.type === "required" && (
-                    <p className="required">Requerido</p>
+                    <FontAwesomeIcon className="iconHamb" icon={faCircleExclamation} style={{color: "D93C40"}}/>
                     )}
                     </div>
                 <input
@@ -65,9 +67,9 @@ const Contacto = () => {
             </div>
             <label>
             <div>
-              Email*
+              <span style={{marginRight: "0.2rem"}}>Email*</span>
               {errors.Email?.type === "required" && (
-                  <p className="required">Requerido</p>
+                  <FontAwesomeIcon className="iconHamb" icon={faCircleExclamation} style={{color: "D93C40"}}/>
                   )}
                 </div>
               <input
@@ -77,9 +79,9 @@ const Contacto = () => {
             </label>
             <label>
             <div>
-              Asunto*
+              <span style={{marginRight: "0.2rem"}}>Asunto*</span>
               {errors.Asunto?.type === "required" && (
-                  <p className="required">Requerido</p>
+                  <FontAwesomeIcon className="iconHamb" icon={faCircleExclamation} style={{color: "D93C40"}}/>
                   )}
                   </div>
               <select
@@ -100,9 +102,9 @@ const Contacto = () => {
             </label>
             <label>
             <div>
-              Mensaje*
+              <span style={{marginRight: "0.2rem"}}>Mensaje*</span>
               {errors.Mensaje?.type === "required" && (
-                  <p className="required">Requerido</p>
+                  <FontAwesomeIcon className="iconHamb" icon={faCircleExclamation} style={{color: "D93C40"}}/>
                   )}
                   </div>
               <textarea
