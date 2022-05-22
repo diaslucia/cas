@@ -1,6 +1,6 @@
 # CAS
 
-Descripción del sitio...
+Broker de Seguros.
 
 ## Instalación y Ejecución 🚀
 
@@ -26,40 +26,48 @@ $npm install
 $npm start
 ```
 
+## Librerías utilizadas 📚
+
 ### SASS
 
-1. Instalar SASS. [Más info aquí](https://create-react-app.dev/docs/adding-a-sass-stylesheet/)
+1. [Más info aquí](https://create-react-app.dev/docs/adding-a-sass-stylesheet/)
 ```
 $npm install sass --save
 ```
 
 ### REACT ROUTER
 
-1. Instalar React Router. [Más info aquí](https://v5.reactrouter.com/web/guides/quick-start)
+1. [Más info aquí](https://v5.reactrouter.com/web/guides/quick-start)
 ```
 $npm install react-router-dom@6
 ```
 ### SWIPER
 
-1. Instalar Swiper. [Más info aquí](https://swiperjs.com/react)
+1. [Más info aquí](https://swiperjs.com/react)
 ```
 $npm i swiper
 ```
 ### FRAME MOTION    
 
-1. Instalar Swiper. [Más info aquí](https://www.npmjs.com/package/framer-motion)
+1. [Más info aquí](https://www.npmjs.com/package/framer-motion)
 ```
 $npm i framer-motion
 ```
 ### HOOK FORM  
 
-1. Instalar React Hook Form. [Más info aquí](https://react-hook-form.com/get-started/)
+1. [Más info aquí](https://react-hook-form.com/get-started/)
 ```
 $npm install react-hook-form
 ```
-### Font Awesome Icons
+### AXIOS
 
-1. Font Awesome Icons. [More information here](https://fontawesome.com/icons)
+1. [Más info aquí](https://axios-http.com/docs/intro)
+```
+$ npm install axios
+```
+### FONT AWESOME ICONS
+
+1. [More info here](https://fontawesome.com/icons)
 ```
 $npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons
 ```

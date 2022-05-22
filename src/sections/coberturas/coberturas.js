@@ -8,7 +8,6 @@ import CardCoberturas from "./components/cardCoberturas/cardCoberturas";
 import familia from "../../assets/Familia.png";
 import empresa from "../../assets/Empresa.png";
 import ahorro from "../../assets/Ahorro.png";
-import campo from "../../assets/Campo.png";
 
 const Coberturas = () => {
     return(
