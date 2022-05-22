@@ -26,7 +26,7 @@ const NavBar = () => {
                 </Link>
             </div>
             <div className={isOpen ? "nav_divLinks_active" : "nav_divLinks"}>
-                <Link to="/" className="nav_link" onClick={() => setIsOpen(false)}>Inicio</Link>
+                <Link to="/cas" className="nav_link" onClick={() => setIsOpen(false)}>Inicio</Link>
                 <Link to="coberturas" className="nav_link" onClick={() => setIsOpen(false)}>Coberturas</Link>
                 <Link to="contacto" className="nav_link" onClick={() => setIsOpen(false)}>Contacto</Link>
                 
