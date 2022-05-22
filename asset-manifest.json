@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/cas/static/css/main.b06c76a4.css",
-    "main.js": "/cas/static/js/main.0da0a565.js",
+    "main.js": "/cas/static/js/main.04fcf49f.js",
     "static/js/787.38bf595c.chunk.js": "/cas/static/js/787.38bf595c.chunk.js",
     "static/media/Banner (3).png": "/cas/static/media/Banner (3).a096fc037823863138f6.png",
     "static/media/Banner (1).png": "/cas/static/media/Banner (1).423da58410e495194ba3.png",
     "static/media/Banner (2).png": "/cas/static/media/Banner (2).1c0f39e731181299965d.png",
-    "static/media/Campo.png": "/cas/static/media/Campo.d3bebe83a0a307e6f7f8.png",
     "static/media/Empresa.png": "/cas/static/media/Empresa.78ec4da2ceade6aac9e5.png",
     "static/media/Familia.png": "/cas/static/media/Familia.371c6da7d1c620a0893b.png",
     "static/media/Ahorro.png": "/cas/static/media/Ahorro.63ee043c6fbe5ac5ed15.png",
@@ -27,11 +26,11 @@
     "static/media/wallpaper.svg": "/cas/static/media/wallpaper.a0a02d7654703f49d4f93cad6c36c8f2.svg",
     "static/media/Impuestos.svg": "/cas/static/media/Impuestos.8125638f60454e60bb5192859f27f373.svg",
     "main.b06c76a4.css.map": "/cas/static/css/main.b06c76a4.css.map",
-    "main.0da0a565.js.map": "/cas/static/js/main.0da0a565.js.map",
+    "main.04fcf49f.js.map": "/cas/static/js/main.04fcf49f.js.map",
     "787.38bf595c.chunk.js.map": "/cas/static/js/787.38bf595c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b06c76a4.css",
-    "static/js/main.0da0a565.js"
+    "static/js/main.04fcf49f.js"
   ]
 }
