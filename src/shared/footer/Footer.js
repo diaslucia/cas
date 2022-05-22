@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='footer'>
         <div className='footer_div'>
           <h2>Mapa de sitio:</h2>
-          <Link to="/">Inicio</Link>
+          <Link to="/cas">Inicio</Link>
           <Link to="/coberturas">Coberturas</Link>
           <Link to="/contacto">Contacto</Link>
         </div>
