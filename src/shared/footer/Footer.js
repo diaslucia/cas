@@ -26,7 +26,7 @@ const Footer = () => {
             <p>(+54 11) 4477-9911</p>
           </div>
         </div>
-        <div className='footer_div'>
+        <div className='footer_divLogo'>
             <img src={Logo} alt="Logo CAS"/>
         </div>
     </div>

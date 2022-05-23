@@ -201,8 +201,31 @@
             width: 30%;
             @media(max-width: 992px){
                 width: 100%;
-                margin-top: 5rem;
+                margin-top: 2rem;
             }
         }
     }
+}
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .contacto{
+        padding: 40px 0px;
+        h1{
+            @include titleFont(25px);
+            margin-bottom: 40px;
+        }
+        div{
+            div{
+                .principal{
+                    font-size: 17px;
+                }
+                .secundario{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
 }

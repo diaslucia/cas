@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: flex-start;
     background-color: $secondary;
+    padding: 1rem 0rem;
     .footer_div{
         text-align: left;
         width: 33%;
@@ -36,9 +37,11 @@
             @include textFont(18px);
             margin: 0.5rem 0rem;
         }
+    }
+    .footer_divLogo{
         img{
-            width: 200px;
-            text-align: center;
+            width: 150px;
+            text-align: center; 
         }
     }
 }
@@ -49,10 +52,47 @@
     .footer{
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: $secondary;
+        padding: 1.5rem 0rem;
         .footer_div{
+            text-align: left;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            padding-left: 1rem;
+            margin-bottom: 2rem;
+            h2{
+                @include textFont(20px);
+                font-weight: 800;
+                margin: 0rem;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                .icon{
+                    font-size: 25px;
+                }
+                p{
+                    margin-left: 0.4rem;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: #000000;
+                @include textFont(17px);
+                margin: 0.25rem 0rem;
+            }
+            p{
+                @include textFont(17px);
+                margin: 0.5rem 0rem;
+            }
+            }
+        .footer_divLogo{
             img{
-                width: 100px;
-                text-align: center;
+                width: 80px;
+                margin-left: 1rem;
             }
         }
     }

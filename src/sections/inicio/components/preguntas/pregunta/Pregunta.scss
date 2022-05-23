@@ -49,3 +49,61 @@
         }
     }
 }
+
+
+/* Phones */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .pregunta{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 1rem 0rem 1rem 0rem;
+        @media(max-width: 576px){
+            width: 100%;
+        }
+        .pregunta_principal{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            cursor: pointer;
+            p{
+                font-size: 24px;
+                margin: 0rem 1rem 0rem 0rem;
+                font-weight: 500;
+                user-select: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none; 
+                -moz-user-select: none;
+                -ms-user-select: none;
+            }
+            h4{
+                margin: 0rem;
+                font-size: 18px;
+                font-weight: 500;
+                user-select: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none; 
+                -moz-user-select: none;
+                -ms-user-select: none;
+            }
+        }
+        .pregunta_secondary{
+            display: flex;
+            justify-content: flex-start;
+            padding: 0.5rem 0rem 0rem 0rem;
+            height: 0rem;
+            margin: 0rem;
+            color: #000000;
+            @media(max-width: 992px){
+                height: 100%;
+            }
+            p{
+                font-size: 1rem;
+                line-height: 1.2rem;
+                margin: 0rem;
+            }
+        }
+    }
+
+}
