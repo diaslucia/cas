@@ -17,6 +17,9 @@
         height: 30rem;
         overflow-y: scroll;
         overflow-x: hidden;
+        @media(max-width: 992px){
+            width: 90%;
+        }
     }
 }
 
