@@ -26,7 +26,7 @@ const Inversiones = () => {
                     </div>
                     <div className="inversiones_cards_dos">
                         <CardInversiones img={inverti} title={"Invertí lo que puedas"}
-                        description={"Vos decidís de cuánto será tu ahorro mensual de acuerdo a tus posibilidades. Máxima flexibilidad. Inversión mínima por mes $ 2.000 o U$S 50."}/>
+                        description={"Cada persona decide cuánto y cuándo ahorrar y qué fondo obtener a la edad seleccionada. Máxima flexibilidad. Inversión mínima por mes $ 2.000 o U$S 50."}/>
                          <CardInversiones img={impuestos} title={"Menos impuestos"}
                         description={"Tus inversiones mensuales se deducen de la base imponible de impuesto a las ganancias y no están alcanzados por bienes personales."}/>
                     </div>

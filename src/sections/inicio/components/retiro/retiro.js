@@ -22,7 +22,7 @@ const Retiro = () => {
                 <div className="retiro_card">
                     <img src={dolar} alt=""/>
                     <h2>Dólar Oficial</h2>
-                    <p>El aporte mínimo para un seguro de retiro en dólares es de U$S 60. Se descuentan de tu CBU de cuenta en pesos que informes con la gran diferencia que estos son adquiridos sin pagar el impuesto del 30% al dólar que cobran los bancos.</p>
+                    <p>Es una póliza de retiro en dólares pero que se suscribe y rescata en pesos. Esta alternativa te permite darle cobertura a tu capital respecto a la devaluación del tipo de cambio y además accedes a un rendimiento en U$S superior a otros instrumentos de ahorro.</p>
                 </div>
                 <div className="retiro_card">
                     <img src={ladrillo} alt=""/>

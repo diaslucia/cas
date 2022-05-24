@@ -42,6 +42,7 @@
             @include flex(column, center, flex-end);
             width: 100%;
             .card_p{
+                width: 100%;
                 p{
                     @include textFont(18px);
                     text-align: end;
@@ -120,6 +121,7 @@
             .card_info{
                 @include flex(row, space-around, center);
                 .card_p{
+                    width: 60%;
                     p{
                         @include textFont(17px);
                         text-align: start;
