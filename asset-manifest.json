@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cas/static/css/main.8eead54e.css",
-    "main.js": "/cas/static/js/main.b3051d79.js",
+    "main.css": "/cas/static/css/main.f0792ec2.css",
+    "main.js": "/cas/static/js/main.831b052a.js",
     "static/js/787.38bf595c.chunk.js": "/cas/static/js/787.38bf595c.chunk.js",
     "static/media/Banner (3).png": "/cas/static/media/Banner (3).a096fc037823863138f6.png",
     "static/media/Banner (1).png": "/cas/static/media/Banner (1).423da58410e495194ba3.png",
@@ -25,12 +25,12 @@
     "index.html": "/cas/index.html",
     "static/media/wallpaper.svg": "/cas/static/media/wallpaper.a0a02d7654703f49d4f93cad6c36c8f2.svg",
     "static/media/Impuestos.svg": "/cas/static/media/Impuestos.8125638f60454e60bb5192859f27f373.svg",
-    "main.8eead54e.css.map": "/cas/static/css/main.8eead54e.css.map",
-    "main.b3051d79.js.map": "/cas/static/js/main.b3051d79.js.map",
+    "main.f0792ec2.css.map": "/cas/static/css/main.f0792ec2.css.map",
+    "main.831b052a.js.map": "/cas/static/js/main.831b052a.js.map",
     "787.38bf595c.chunk.js.map": "/cas/static/js/787.38bf595c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8eead54e.css",
-    "static/js/main.b3051d79.js"
+    "static/css/main.f0792ec2.css",
+    "static/js/main.831b052a.js"
   ]
 }
