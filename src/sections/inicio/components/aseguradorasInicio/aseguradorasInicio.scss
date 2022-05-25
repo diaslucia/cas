@@ -26,8 +26,8 @@
 @media only screen and (min-width: 200px) and (max-width: 600px) {
 
     .aseguradorasInicio{
-        margin-top: 80px;
-        padding-bottom: 20px;
+        margin-top: 40px;
+        padding-bottom: 40px;
         .aseguradorasInicio_title{
             @include titleFont(25px);
             margin-bottom: 20px;

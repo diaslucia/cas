@@ -6,8 +6,7 @@ const ImgSwiper = ({ img1, img2, img3}) => {
         <div className="imgSwiper_container">
             <img src={img1} alt="logo"/>
             <img src={img2} alt="logo"/>
-            {img3 && <img src={img3} alt="logo"/>}
-
+            <img src={img3} alt="logo"/>
         </div>
     );
 }

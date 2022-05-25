@@ -32,6 +32,7 @@
             color: #000000;
             @include textFont(18px);
             margin: 0.25rem 0rem;
+            cursor: pointer;
         }
         p{
             @include textFont(18px);

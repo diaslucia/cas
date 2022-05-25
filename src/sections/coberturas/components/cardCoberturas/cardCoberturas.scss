@@ -3,24 +3,24 @@
 .cardProductos{
     @include flex(row, space-around, center);
     max-width: 1500px;
-    height: 353px;
+    height: 320px;
     margin: auto;
     padding: 20px;
     .card_imgContainer{
         @include flex(row, flex-start, center);
-        margin: 0px 50px;
-        height: 353px;
+        margin: 0px;
+        height: 320px;
         .cart_imgType{
             display: none;
         }
         img {
-            height: 353px;
+            height: 320px;
         }
     }
     .card_infoContainer{
         @include flex(column, space-evenly, center);
-        height: 353px;
-        width: 412px;
+        height: 320px;
+        width: auto;
         margin: 0px 45px;
         .card_titles{
             @include flex(column, center, flex-end);
@@ -104,8 +104,8 @@
         .card_infoContainer{
             @include flex(column, space-evenly, center);
             height: auto;
-            width: 100%;
             margin: 0px;
+            width: auto;
             .card_titles{
                 @include flex(column, center, center);
                 width: 100%;
@@ -119,9 +119,9 @@
                 }
             }
             .card_info{
-                @include flex(row, space-around, center);
+                @include flex(column, space-around, center);
                 .card_p{
-                    width: 60%;
+                    width: 100%;
                     p{
                         @include textFont(17px);
                         text-align: start;
@@ -131,7 +131,7 @@
                 .coberturas_button{
                     @include textFont(17px);
                     @include flex(row, center, center);
-                    margin-top: 0px;
+                    margin-top: 20px;
                     border-radius: 50px;
                     width: 130px;
                     height: 30px;
