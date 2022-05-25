@@ -122,9 +122,9 @@ const Contacto = () => {
         </div>
         <div>
           <p className="principal">Comunicate por whatsapp</p>
-          <p className="secundario"><a href="https://wa.me/+5491144779911">(+54 11) 4477-9911</a></p>
+          <p className="secundario"><a href="https://wa.me/+5491144779911" target="_blank">(+54 11) 4477-9911</a></p>
           <p className="principal">Consultas generales</p>
-          <p className="secundario"><a href="mailto:casobrino@gmail.com">casobrino@gmail.com</a></p>
+          <p className="secundario"><a href="mailto:casobrino@gmail.com" target="_blank">casobrino@gmail.com</a></p>
         </div>
       </div>
     </div>
