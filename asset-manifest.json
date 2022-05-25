@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cas/static/css/main.f0792ec2.css",
-    "main.js": "/cas/static/js/main.831b052a.js",
+    "main.css": "/cas/static/css/main.d87a086e.css",
+    "main.js": "/cas/static/js/main.2802bda0.js",
     "static/js/787.38bf595c.chunk.js": "/cas/static/js/787.38bf595c.chunk.js",
     "static/media/Banner (3).png": "/cas/static/media/Banner (3).a096fc037823863138f6.png",
     "static/media/Banner (1).png": "/cas/static/media/Banner (1).423da58410e495194ba3.png",
@@ -12,6 +12,7 @@
     "static/media/ProductSans-Light.ttf": "/cas/static/media/ProductSans-Light.1dde435cdc2a9b6a7130.ttf",
     "static/media/FedPat.svg": "/cas/static/media/FedPat.c43f9e5eea6359a3c70897b104394ecf.svg",
     "static/media/SanCristobal.svg": "/cas/static/media/SanCristobal.26ad5716a75ab2e316d88cfc3c15cd25.svg",
+    "static/media/Life.png": "/cas/static/media/Life.b2da5c8e9c101c258198.png",
     "static/media/Dolar.svg": "/cas/static/media/Dolar.8c747914d987df1dee2658bf9bdf09c2.svg",
     "static/media/Origenes.svg": "/cas/static/media/Origenes.85b5b92068d25ae68779b852a57d6d2b.svg",
     "static/media/SMG.svg": "/cas/static/media/SMG.095916dbd73d01c978bac6b8468b185d.svg",
@@ -25,12 +26,12 @@
     "index.html": "/cas/index.html",
     "static/media/wallpaper.svg": "/cas/static/media/wallpaper.a0a02d7654703f49d4f93cad6c36c8f2.svg",
     "static/media/Impuestos.svg": "/cas/static/media/Impuestos.8125638f60454e60bb5192859f27f373.svg",
-    "main.f0792ec2.css.map": "/cas/static/css/main.f0792ec2.css.map",
-    "main.831b052a.js.map": "/cas/static/js/main.831b052a.js.map",
+    "main.d87a086e.css.map": "/cas/static/css/main.d87a086e.css.map",
+    "main.2802bda0.js.map": "/cas/static/js/main.2802bda0.js.map",
     "787.38bf595c.chunk.js.map": "/cas/static/js/787.38bf595c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0792ec2.css",
-    "static/js/main.831b052a.js"
+    "static/css/main.d87a086e.css",
+    "static/js/main.2802bda0.js"
   ]
 }
